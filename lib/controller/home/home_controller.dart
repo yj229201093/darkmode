@@ -8,7 +8,7 @@ class HomeController extends GetxController {
 
   void pushToHomeDetails() {
     Get.toNamed(YJRoutes.HOME_DETAILS,
-        arguments: {"name": "杨建", "number": "8888"});
+        arguments: {"name": "深色模式", "number": "8888"});
   }
 
   @override

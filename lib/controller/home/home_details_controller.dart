@@ -14,7 +14,7 @@ class HomeDetailsController extends GetxController {
     Utils.logs(Get.arguments.toString());
     name = map["name"];
     number = map["number"];
-    update();
+    onRefresh();
   }
 
   void onRefresh() {
